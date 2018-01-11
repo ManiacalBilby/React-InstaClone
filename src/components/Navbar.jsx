@@ -29,6 +29,13 @@ margin: 0;
 position: relative;
 `
 
+const LogoDiv = styled.div`
+display: flex;
+flex: 1 999 0%;
+min-width: 40px;
+align-items: stretch;
+`
+
 class Navbar extends Component{
   render(){
     return (
